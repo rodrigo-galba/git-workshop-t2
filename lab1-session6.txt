@@ -1,0 +1,177 @@
+Script started on 2025-08-01 19:20:48-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="15"]
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev[00m$ cd -
+[?2004l/mnt/d/rodri/dev/git-workshop
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mecho "linha 1" > arquivo.txt[27mecho "linha 1" > arquivo.txt
+[?2004l[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ cat arquivo.txt 
+[?2004llinha 1
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit add arquivo.txt[27mgit add arquivo.txt
+[?2004l[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit commit -m "algum commit"[27mgit commit -m "algum commit"
+[?2004l[main 1c9a502] algum commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 arquivo.txt
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [K]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [H[2J]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mls .git/objects[27mls .git/objects
+[?2004l[0m[34;42m14[0m  [34;42m18[0m  [34;42m1b[0m  [34;42m1c[0m  [34;42m21[0m  [34;42m33[0m  [34;42m35[0m  [34;42m36[0m  [34;42m3d[0m  [34;42m46[0m  [34;42m4b[0m  [34;42m54[0m  [34;42m58[0m  [34;42m62[0m  [34;42m6b[0m  [34;42m89[0m  [34;42m9e[0m  [34;42ma6[0m  [34;42mab[0m  [34;42mb6[0m  [34;42mcc[0m  [34;42md4[0m  [34;42mdf[0m  [34;42me6[0m  [34;42mf6[0m  [34;42minfo[0m  [34;42mpack[0m
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ ls .git/objects type -f
+[?2004lls: cannot access 'type': No such file or directory
+.git/objects:
+.  ..  14  18  1b  1c  21  33  35  36  3d  46  4b  54  58  62  6b  89  9e  a6  ab  b6  cc  d4  df  e6  f6  info  pack
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ ls .git/objects type -f[K[K[K[K[K[K[K-type f
+[?2004lls: invalid option -- 'y'
+Try 'ls --help' for more information.
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ ls .git/objects -type f[K[H[2J]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mfind .git/objects -type f[27mfind .git/objects -type f
+[?2004l.git/objects/14/62a37c8a995264835eb706a87e76c50e87e1ef
+.git/objects/18/ad3c5d43a742977d96b3c0a9b18132b2bd08c3
+.git/objects/1b/a4ca2b221bbd7166ead32d95a2b3fe66f3aa91
+.git/objects/1c/9a502dbccefdcb17c41ce0be27e227710c0ffb
+.git/objects/21/39d8be699ff388ab3ec85008a3906675ac67cb
+.git/objects/33/bfaac915f5b9c68d0a51ac93ea5e3216f270e2
+.git/objects/35/edd67db8f7a98af1e6f604380378444e3202f8
+.git/objects/36/8d7ffa7802ca3d04ca98200ed42a4748a0d069
+.git/objects/3d/2b4a2fc253c5a16a518dcc94c072263f44818c
+.git/objects/3d/7c0639bc629c2ba2f0b2466adf5c63b2f066d0
+.git/objects/46/7dfad014bdd3d560be47a460f067d3226d017d
+.git/objects/4b/1d4d4b660c400875dd122de217e942f481a378
+.git/objects/54/f43d48395fda7c1255388ab08428ec244fea4e
+.git/objects/58/a0fd30aa3bdbe084eff42374bb99255dff1b6e
+.git/objects/62/6799f0f85326a8c1fc522db584e86cdfccd51f
+.git/objects/6b/414f654ae6e4f9a550ec35a02f96085490ef81
+.git/objects/6b/4396a1bd1bd77f5c351e0a4e272be15a33dfca
+.git/objects/89/060c3cc334e2d3d322ab0245e2a2a66b9882b1
+.git/objects/9e/ce50267075657265ca0813fd606b80c2ba5560
+.git/objects/a6/ba8e387e97b5e10a80cc7b69d0a284d72ecb68
+.git/objects/ab/4a76daff2a57d94ca4ecd9e18ad855ddf5cd94
+.git/objects/b6/7185cd87499b259989a38a7149cf0ff0ae2655
+.git/objects/cc/9fc5b91f48175c16430ba45911b7b90cc4a32d
+.git/objects/d4/d1a219202a2a74dedb317f215b47d56cefe01d
+.git/objects/df/33e7746a03b9c94dac19610f17181dfb644e95
+.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/f6/1f0bc4416f71144a43f0715a7da4e96aeb1bb5
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [H[2J]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit rev-parse HEAD[27mgit rev-parse HEAD
+[?2004l1c9a502dbccefdcb17c41ce0be27e227710c0ffb
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git rev-parse HEADfind .git/objects -type f[2Pls[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctype -f[K
+[?2004l[0m[34;42m14[0m  [34;42m18[0m  [34;42m1b[0m  [34;42m1c[0m  [34;42m21[0m  [34;42m33[0m  [34;42m35[0m  [34;42m36[0m  [34;42m3d[0m  [34;42m46[0m  [34;42m4b[0m  [34;42m54[0m  [34;42m58[0m  [34;42m62[0m  [34;42m6b[0m  [34;42m89[0m  [34;42m9e[0m  [34;42ma6[0m  [34;42mab[0m  [34;42mb6[0m  [34;42mcc[0m  [34;42md4[0m  [34;42mdf[0m  [34;42me6[0m  [34;42mf6[0m  [34;42minfo[0m  [34;42mpack[0m
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ ls .git/objects[1P .git/objectsl .git/objects
+[?2004ltotal 0
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:21 [0m[34;42m.[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:21 [34;42m..[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:21 [34;42m14[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m18[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:38 [34;42m1b[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:21 [34;42m1c[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m21[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m33[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:20 [34;42m35[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:46 [34;42m36[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:20 [34;42m3d[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m46[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m4b[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:46 [34;42m54[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m58[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m62[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42m6b[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:20 [34;42m89[0m/
+drwxrwxrwx 1 rogal rogal 512 Aug  1 19:21 [34;42m9e[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42ma6[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:40 [34;42mab[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42mb6[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:39 [34;42mcc[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42md4[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:46 [34;42mdf[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42me6[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 21:33 [34;42mf6[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:36 [34;42minfo[0m/
+drwxrwxrwx 1 rogal rogal 512 Jul 31 20:36 [34;42mpack[0m/
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ ll .git/objectss[C[C[C[C[C[C[C[C[C[C[C[C[Cgit rev-parse HEADfind .git/objects -type f
+[?2004l.git/objects/14/62a37c8a995264835eb706a87e76c50e87e1ef
+.git/objects/18/ad3c5d43a742977d96b3c0a9b18132b2bd08c3
+.git/objects/1b/a4ca2b221bbd7166ead32d95a2b3fe66f3aa91
+.git/objects/1c/9a502dbccefdcb17c41ce0be27e227710c0ffb
+.git/objects/21/39d8be699ff388ab3ec85008a3906675ac67cb
+.git/objects/33/bfaac915f5b9c68d0a51ac93ea5e3216f270e2
+.git/objects/35/edd67db8f7a98af1e6f604380378444e3202f8
+.git/objects/36/8d7ffa7802ca3d04ca98200ed42a4748a0d069
+.git/objects/3d/2b4a2fc253c5a16a518dcc94c072263f44818c
+.git/objects/3d/7c0639bc629c2ba2f0b2466adf5c63b2f066d0
+.git/objects/46/7dfad014bdd3d560be47a460f067d3226d017d
+.git/objects/4b/1d4d4b660c400875dd122de217e942f481a378
+.git/objects/54/f43d48395fda7c1255388ab08428ec244fea4e
+.git/objects/58/a0fd30aa3bdbe084eff42374bb99255dff1b6e
+.git/objects/62/6799f0f85326a8c1fc522db584e86cdfccd51f
+.git/objects/6b/414f654ae6e4f9a550ec35a02f96085490ef81
+.git/objects/6b/4396a1bd1bd77f5c351e0a4e272be15a33dfca
+.git/objects/89/060c3cc334e2d3d322ab0245e2a2a66b9882b1
+.git/objects/9e/ce50267075657265ca0813fd606b80c2ba5560
+.git/objects/a6/ba8e387e97b5e10a80cc7b69d0a284d72ecb68
+.git/objects/ab/4a76daff2a57d94ca4ecd9e18ad855ddf5cd94
+.git/objects/b6/7185cd87499b259989a38a7149cf0ff0ae2655
+.git/objects/cc/9fc5b91f48175c16430ba45911b7b90cc4a32d
+.git/objects/d4/d1a219202a2a74dedb317f215b47d56cefe01d
+.git/objects/df/33e7746a03b9c94dac19610f17181dfb644e95
+.git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+.git/objects/f6/1f0bc4416f71144a43f0715a7da4e96aeb1bb5
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit cat-file -t[27mgit cat-file -t [7m9a502dbccefdcb17c41ce0be27e227710c0ffb[27m9a502dbccefdcb17c41ce0be27e227710c0ffb
+[?2004lfatal: Not a valid object name 9a502dbccefdcb17c41ce0be27e227710c0ffb
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git cat-file -t 9a502dbccefdcb17c41ce0be27e227710c0ffb[Kgit cat-file -t 9a502dbccefdcb17c41ce0be27e227710c0ffb[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kf6[7m1f0bc4416f71144a43f0715a7da4e96aeb1bb5[27m1f0bc4416f71144a43f0715a7da4e96aeb1bb5
+[?2004lblob
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git cat-file -t f61f0bc4416f71144a43f0715a7da4e96aeb1bb5[C[C[1P f61f0bc4416f71144a43f0715a7da4e96aeb1bb5- f61f0bc4416f71144a43f0715a7da4e96aeb1bb5p f61f0bc4416f71144a43f0715a7da4e96aeb1bb5[1P f61f0bc4416f71144a43f0715a7da4e96aeb1bb5[1P f61f0bc4416f71144a43f0715a7da4e96aeb1bb5p f61f0bc4416f71144a43f0715a7da4e96aeb1bb5
+[?2004lScript started on 2025-07-31 21:33:13-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="83" LINES="22"]
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit add . && git commit -m "v1"[27mgit add . && git commit -m "v1"
+[?2004l[main 58a0fd3] v1
+ 3 files changed, 1 insertion(+)
+ create mode 100644 doc-test.py
+ create mode 100644 lab1-sessao1.txt
+ create mode 100644 notas.txt
+[?[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [7mgit ls-tree HEAD[27mgit ls-tree HEAD
+[?2004l100644 blob 368d7ffa7802ca3d04ca98200ed42a4748a0d069	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	doc-test.py
+100644 blob 89060c3cc334e2d3d322ab0245e2a2a66b9882b1	lab1-sessao1.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git ls-tree HEADcat-file -p f61f0bc4416f71144a43f0715a7da4e96aeb1bb5[C[C[1Pf61f0bc4416f71144a43f0715a7da4e96aeb1bb5tf61f0bc4416f71144a43f0715a7da4e96aeb1bb5[1Pf61f0bc4416f71144a43f0715a7da4e96aeb1bb5tf61f0bc4416f71144a43f0715a7da4e96aeb1bb5[1Pf61f0bc4416f71144a43f0715a7da4e96aeb1bb5[1Pf61f0bc4416f71144a43f0715a7da4e96aeb1bb5tf61f0bc4416f71144a43f0715a7da4e96aeb1bb5 f61f0bc4416f71144a43f0715a7da4e96aeb1bb5
+[?2004lblob
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git cat-file -t f61f0bc4416f71144a43f0715a7da4e96aeb1bb5ls-tree HEAD[K
+[?2004l100644 blob 368d7ffa7802ca3d04ca98200ed42a4748a0d069	README.md
+100644 blob 9ece50267075657265ca0813fd606b80c2ba5560	arquivo.txt
+100644 blob e69de29bb2d1d6434b8b29ae775ad8c2e48c5391	doc-test.py
+100644 blob 89060c3cc334e2d3d322ab0245e2a2a66b9882b1	lab1-sessao1.txt
+100644 blob 4b1d4d4b660c400875dd122de217e942f481a378	notas.txt
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git ls-tree HEADcat-file -t f61f0bc4416f71144a43f0715a7da4e96aeb1bb5ls-tree HEAD[K[K(reverse-i-search)`': [Kf': git cat-file -t f61f0bc4416f71144a43[7mf[27m0715a7da4e96aeb1bb5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Po': git config --local user.email "rodrigogalba@uni[7mfo[27mr.br"[Cfailed reverse-i-search)`fol': git config --local user.email "rodrigogalba@unifor.br"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@o[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@w[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ [H[2J]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git log[K[K[K[K[K[K[Kgit log --follow [7m9ece50267075657265ca0813fd606b80c2ba5560[27m9ece50267075657265ca0813fd606b80c2ba5560
+[?2004lfatal: --follow requires exactly one pathspec
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git log --follow 9ece50267075657265ca0813fd606b80c2ba5560[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Karquivo.txt
+[?2004l[?1h=[33mcommit 1c9a502dbccefdcb17c41ce0be27e227710c0ffb[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: Galba <rodrigogalba@unifor.br>[m
+Date:   Fri Aug 1 19:21:22 2025 -0300[m
+[m
+    algum commit[m
+[K[?1l>[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git log --follow arquivo.txt9ece50267075657265ca0813fd606b80c2ba5560s-tree HEAD[Kog --follow 9ece50267075657265ca0813fd606b80c2ba5560[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kw notas.txt
+[?2004l[?1h=[33mcommit a6ba8e387e97b5e10a80cc7b69d0a284d72ecb68[m[m
+Author: Galba <rodrigogalba@unifor.br>[m
+Date:   Thu Jul 31 21:33:32 2025 -0300[m
+[m
+    v3[m
+[m
+[33mcommit 18ad3c5d43a742977d96b3c0a9b18132b2bd08c3[m[m
+Author: Galba <rodrigogalba@unifor.br>[m
+Date:   Thu Jul 31 21:33:25 2025 -0300[m
+[m
+    v2[m
+[m
+[33mcommit 58a0fd30aa3bdbe084eff42374bb99255dff1b6e[m[m
+Author: Galba <rodrigogalba@unifor.br>[m
+Date:   Thu Jul 31 21:33:20 2025 -0300[m
+[m
+    v1[m
+[K[?1l>[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git cat-file -t [7m58a0fd30aa3bdbe084eff42374bb99255dff1b6e[27m58a0fd30aa3bdbe084eff42374bb99255dff1b6e
+[?2004lcommit
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ git cat-file -t 58a0fd30aa3bdbe084eff42374bb99255dff1b6e[C[1P 58a0fd30aa3bdbe084eff42374bb99255dff1b6ep 58a0fd30aa3bdbe084eff42374bb99255dff1b6e
+[?2004ltree d4d1a219202a2a74dedb317f215b47d56cefe01d
+parent df33e7746a03b9c94dac19610f17181dfb644e95
+author Galba <rodrigogalba@unifor.br> 1754008400 -0300
+committer Galba <rodrigogalba@unifor.br> 1754008400 -0300
+
+v1
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop[00m$ exit
+[?2004lexit
+
+Script done on 2025-08-01 19:28:12-03:00 [COMMAND_EXIT_CODE="0"]
