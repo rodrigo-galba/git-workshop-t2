@@ -1,3 +1,10 @@
 Script started on 2025-07-31 21:35:23-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="131" LINES="11"]
 [?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mecho "v1" > notas.txt[27mecho "v1" > notas.txt
-[?2004l[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mgit add . && git commit -m "v1"[27m
+[?2004l[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mgit add . && git commit -m "v1"[27mgit add . && git commit -m "v1"
+[?2004l[main d2ac97c] v1
+ 2 files changed, 4 insertions(+)
+ create mode 100644 lab1-sessao1.txt
+ create mode 100644 notas.txt
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mecho "v2" >> notas.txt && git commit -am "v2"[27mecho "v2" >> notas.txt && git commit -am "v2"
+[?2004l[main 4918968] v2
+ 1 file
