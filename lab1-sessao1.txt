@@ -1,0 +1,3 @@
+Script started on 2025-07-31 21:35:23-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="131" LINES="11"]
+[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mecho "v1" > notas.txt[27mecho "v1" > notas.txt
+[?2004l[?2004h]0;rogal@ROGAL-F17: /mnt/d/rodri/dev/git-workshop-t2[01;32mrogal@ROGAL-F17[00m:[01;34m/mnt/d/rodri/dev/git-workshop-t2[00m$ [7mgit add . && git commit -m "v1"[27m
