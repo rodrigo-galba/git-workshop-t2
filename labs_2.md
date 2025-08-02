@@ -44,6 +44,7 @@ git branch prod
 
 ```bash
 echo "v2 main" >> app.txt
+git add app.txt
 git commit -am "v2 main"
 ```
 
