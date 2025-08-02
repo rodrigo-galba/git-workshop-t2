@@ -265,7 +265,7 @@ git revert HEAD~1
 
 4. Verifique se o novo commit de reversão foi criado:
 ```bash
-git status
+git log
 ```
 
 5. Faça ajustes adicionais, se necessário.
@@ -460,3 +460,78 @@ exit
 ```
 
 > Adicione o arquivo no Git `lab3-sessao9.txt`.
+
+Perfeito! Aqui está a versão ajustada do laboratório, **presumindo que o repositório local já foi criado no Lab 1**:
+
+---
+
+# 🧪 Laboratório 3.10: Publicando um Repositório no GitHub
+
+### 🎯 Objetivo:
+Aprender a publicar no GitHub um repositório Git local já existente, utilizando os comandos `git remote`, `git push` e `git clone`.
+
+---
+
+### 🎬 Início da Sessão
+
+```bash
+script lab43-sessao10.txt
+````
+
+---
+
+### 📋 Passos:
+
+1. Acesse o repositório criado no Lab 1:
+
+```bash
+cd ~/projeto-git  # ou o caminho usado no Lab 1
+```
+
+2. Acesse [https://github.com/new](https://github.com/new) e crie um novo repositório **vazio** (sem README).
+
+3. Adicione o repositório remoto:
+
+```bash
+git remote add origin https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+```
+
+4. Faça o push da branch principal:
+
+```bash
+git push -u origin main
+```
+
+5. Verifique a origem remota:
+
+```bash
+git remote -v
+```
+
+---
+
+### 📂 Clonando um Repositório do GitHub
+
+1. Crie um diretório separado para o clone:
+
+```bash
+cd ..
+git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git projeto-clonado
+cd projeto-clonado
+```
+
+2. Verifique o conteúdo clonado:
+
+```bash
+ls -la
+```
+
+---
+
+### 🛑 Final da Sessão
+
+```bash
+exit
+```
+
+> Envie o arquivo `lab3-sessao10.txt` como evidência da execução.
