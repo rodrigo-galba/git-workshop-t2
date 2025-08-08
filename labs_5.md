@@ -42,14 +42,7 @@ Você percebeu que algum commit entre `v1.0` e `v1.6` quebrou a funcionalidade d
    git bisect bad
    git bisect good HEAD~5
    ```
-3. Para cada etapa do bisect, use:
-
-   ```bash
-   grep -q "errado" config.txt && exit 1 || exit 0
-   ```
-
-   Ou automatize com:
-
+3. Execute para encontrar automatica o erro:
    ```bash
    git bisect run bash -c 'grep -q "errado" config.txt && exit 1 || exit 0'
    ```
