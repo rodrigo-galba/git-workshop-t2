@@ -135,7 +135,7 @@ Crie uma tag semântica no `prod` (ex: `v1.0.0`) e submeta para o GitHub.
 
 #### Tarefa 22
 
-Crie uma Pull Request no **seu repositório**: do branch `prod` para o branch `main`. Na descrição, resuma as alterações feitas.
+Crie uma Pull Request no **seu repositório**: do branch `prod` para o branch `main`. Na descrição, resuma as alterações feitas. Aprove a PR.
 
 #### Tarefa 23
 
