@@ -114,7 +114,7 @@ Crie uma tag semântica no branch `stage` (ex: `v1.0.0-stage`) e envie para o Gi
 
 #### Tarefa 18
 
-Crie um branch `prod` baseado em `main`, ignorando quaisquer alterações pendentes.
+Crie um branch `prod` baseado em `main`, ignorando quaisquer alterações pendentes. E mude para o branch prod.
 
 #### Tarefa 19
 
