@@ -85,15 +85,17 @@ Sua branch `main` contém dois commits: um com uma nova feature e outro com um h
 
 #### 🔧 Instruções:
 
-1. Em `main`, crie dois commits:
-
-   * Commit 1: `"feature: novo componente"`
-   * Commit 2: `"fix: corrige bug no botão"`
-2. Crie uma nova branch:
+1. Crie uma nova branch:
 
    ```bash
    git checkout -b release/1.0
    ```
+   E volte para main.
+   
+2. Em `main`, crie dois commits:
+
+   * Commit 1: `"feature: novo componente"`
+   * Commit 2: `"fix: corrige bug no botão"`
 3. Aplique **somente o segundo commit** com:
 
    ```bash
