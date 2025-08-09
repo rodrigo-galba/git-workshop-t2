@@ -91,7 +91,7 @@ Sua branch `main` contém dois commits: um com uma nova feature e outro com um h
    git checkout -b release/1.0
    ```
    E volte para main.
-   
+
 2. Em `main`, crie dois commits:
 
    * Commit 1: `"feature: novo componente"`
@@ -102,10 +102,6 @@ Sua branch `main` contém dois commits: um com uma nova feature e outro com um h
    git cherry-pick <hash-do-hotfix>
    ```
 4. Verifique o histórico com `git log --oneline`
-
----
-
-Excelente ideia! A seguir, você encontrará **4 exercícios avançados com foco em resolução de erros comuns** ao usar `git reflog`, `git bisect`, `git stash` e `git cherry-pick`. Cada exercício simula um cenário de erro real e exige diagnóstico e correção — perfeitos para aulas práticas e para desenvolver maturidade no uso do Git.
 
 ---
 
