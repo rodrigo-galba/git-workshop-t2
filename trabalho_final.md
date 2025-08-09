@@ -37,7 +37,7 @@ Crie uma **Issue** no repositório principal com as seguintes informações:
 
 #### Tarefa 4
 
-Clone localmente o repositório que você forkou e crie um branch separado a partir do `main` com o nome `dev`.
+Clone localmente o repositório que você forkou e crie um branch separado a partir do `main` com o nome `dev`. E mude para o branch dev.
 
 #### Tarefa 5
 
